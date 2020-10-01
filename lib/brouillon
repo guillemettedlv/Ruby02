@@ -1,0 +1,15 @@
+ami = [ "Jean-Paul", "Goret", "Rue de l'église, 26", "Houtsiplou", "Liège" ]
+
+ami = {
+    "prénom"          =>"Jean-Paul",
+    "nom de famille"  =>"Goret",
+    "adresse"         =>"Rue de l'église, 26",
+    "ville"           =>"Houtsiplou",
+    "province"        =>"Liège"
+}
+
+ami["pays"] = "Belgique"
+
+amis.each do |clef, valeur|
+    puts clef + " =>" + valeur
+end
